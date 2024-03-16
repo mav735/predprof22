@@ -39,7 +39,7 @@ def generate_hash(data) -> list:
 
 def main():
     """
-    Main func executes on start and counts earnings from selling all devices of each company
+    Main func executes on start and generates hash for each element of data from csv file
     """
     data = read_csv_file('devices.csv')
     data.pop(0)
